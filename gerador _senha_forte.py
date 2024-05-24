@@ -3,7 +3,7 @@
 import random
 import string
 
-def generate_password(tamanho):
+def gera_senha(tamanho):
     if tamanho < 8:
         raise ValueError("\033[91m[AVISO]: O comprimento da senha deve ser pelo menos 4 para garantir a segurança.")
     if tamanho > 20:
@@ -31,7 +31,7 @@ def main():
     print("\033[91m[AVISO]: As senhas geradas utilizam os padrões de senha forte\n")
     tamanho = int(input("\033[0mDigite o comprimento desejado para a senha: "))
     try:
-        senha = generate_password(tamanho)
+        senha = gera_senha(tamanho)
         print(f"Sua senha gerada é: {senha}")
     except ValueError as e:
         print(e)
