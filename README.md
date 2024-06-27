@@ -2,16 +2,6 @@
 
 Este repositório contém um script em Python para gerar senhas fortes. O script garante que a senha gerada contenha uma combinação de letras maiúsculas, minúsculas, dígitos e caracteres especiais, garantindo maior segurança.
 
-## Índice
-
-- [Descrição](#descrição)
-- [Funcionalidades](#funcionalidades)
-- [Instalação](#instalação)
-- [Como Usar](#como-usar)
-- [Exemplo](#exemplo)
-- [Avisos](#avisos)
-- [Autor](#autor)
-
 ## Descrição
 
 O script `generate_password.py` foi criado para ajudar os usuários a gerar senhas fortes e seguras de maneira rápida e fácil. O código inclui verificações para assegurar que a senha tenha um comprimento mínimo e máximo recomendável para manter um bom equilíbrio entre segurança e praticidade.
